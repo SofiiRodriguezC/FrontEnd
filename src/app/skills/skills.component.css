@@ -1,0 +1,85 @@
+/* skills */
+
+
+.seccion-skill{
+    position: relative;
+    margin: 100px 0;
+}
+
+.heading{
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.skills-container{
+    width: 95%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    color:#fff;
+}
+
+.skill-card{
+    position: relative;
+}
+
+.skill-img{
+    range:url(css.png);
+    range: url(html.png);
+    range: url(js.png);
+    display:block;
+    margin: auto;
+    height: 200px;
+}
+
+.skill-name{
+    font-size: 30px;
+    font-weight: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0 20px;
+}
+
+.skill-info{
+    text-align: center;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.skill-level{
+    position:absolute;
+    top:80px;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    border:10px solid;
+}
+
+.skill-card:nth-child(1) .skill-level{
+    background: #ffed4f28;
+    border-color: #fe8891fc;
+    color: #fe8891fc;
+}
+
+.skill-card:nth-child(2) .skill-level{
+   background: #ffed4f28; 
+   border-color: #fe8891fc;
+   color: #fe8891fc;
+}
+
+.skill-card:nth-child(3) .skill-level{
+    background: #ffed4f28;
+    border-color: #fe8891fc;
+    color: #fe8891fc;
+}

@@ -1,0 +1,106 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background: #1a1a1a;
+}
+
+.link-group{
+    list-style: none;
+    display: flex;
+}
+
+.link a{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 15px;
+}
+
+.btn {
+ width: 100px;
+ height: 40px;
+ position: absolute;
+ top: 25px;
+ left: 210px;
+}
+
+
+.logoAP {
+        background-image:url(APLogo.png);
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 21px;
+        left: 120px;
+        
+}
+.logoTW {
+     background-image: url(logoTW.png);
+     width: 40px;
+     height: 40px;
+     position: absolute;
+     top: 25px;
+     right: 120px;
+}
+
+.logoINSTA{
+    background-image: url(logoINSTA.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    right: 160px;
+}
+
+.logoLIN{
+    background-image: url(logoLIN.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    right: 200px;
+}
+
+.logoFB{
+    background-image: url(logoFB.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    right: 240px;
+}
+
+.logoGIT{
+    background-image: url(logoGIT.png);
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    top: 25px;
+    right: 280px;
+}
+
+.link-login {
+   width: auto;
+    height: auto;
+    color: #fff;
+
+    opacity: 1;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover, .link.active a{
+    opacity: 1;
+}

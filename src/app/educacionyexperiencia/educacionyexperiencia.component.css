@@ -1,0 +1,57 @@
+/* educacion y experiencia */
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+
+
+.info-item {
+    position: relative;
+    padding-left: 1rem;
+    border-left: 2px solid #fe8891fc;
+    margin-bottom: 2rem;
+    left: 60px;
+}
+
+
+.info-item h4{
+    font-size: 30px;
+    color: #fff;
+    left: 60px;
+}
+
+.info-item h4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 1rem;
+    height: 1rem;
+    background-color: #fe8891fc;
+    border: solid 2px #fe8891fc;
+    border-radius: 1rem;
+}
+
+.info-item h5 {
+    font-size: 15px;
+    color: #fff;
+    left: 60px;
+
+}
+
+.edit-icon {
+    margin-bottom: 1.5rem;
+    padding-right: 5px;
+}
+
+.edit-icon:hover {
+    cursor: pointer;
+}
+
+
+
